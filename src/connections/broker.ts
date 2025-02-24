@@ -10,10 +10,14 @@ export function connectionBroker() {
     protocol: "mqtts",
     username: process.env.MQTT_USERNAME,
     password: process.env.MQTT_PASSWORD,
+    will: {
+      topic: "iot.rain",
+      payload: "iot.rain caiu",
+      qos: 2,
+      retain: true,
+    },
   };
   const client = mqtt.connect(options);
-
-  client.removeAllListeners("connect");
 
   client.on("connect", () => {
     console.log("Connectado ao broker MQTT");
