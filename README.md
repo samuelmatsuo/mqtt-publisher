@@ -1,6 +1,3 @@
-Aqui está a documentação formatada para o **MQTT-PUBLISHER**, seguindo o mesmo estilo do **MQTT-SUBSCRIBER**.
-
----
 
 # MQTT-PUBLISHER
 
