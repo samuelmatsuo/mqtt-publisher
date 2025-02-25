@@ -92,7 +92,7 @@ A aplicação publica mensagens nos seguintes tópicos:
 - `iot.error`
 - `iot.off`
 
-Os dados enviados podem ser ajustados no arquivo `src/publisher/sendMessages.ts`.
+Os dados enviados podem ser ajustados no arquivo `src/publisher/...`.
 
 ## Scripts Disponíveis
 
